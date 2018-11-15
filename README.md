@@ -1,4 +1,4 @@
-# My Pure CSS images
+# 100% Pure CSS Images
 Pure CSS images you can use in your website or apps !
 
 ### Here's the list of the pure css images this repo includes: 
