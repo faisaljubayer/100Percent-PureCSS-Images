@@ -68,6 +68,37 @@ body{
     left: 10%;
     background: #819CAF;
 }
+
+.eye-left{
+    background: white;
+    z-index: 3;
+    position: absolute;
+    top:25%;
+    left:21%;
+    height:33%;
+    width:30%;
+    border-radius:50%;
+}
+.eye-right{
+    background: white;
+    z-index: 3;
+    position: absolute;
+    top:25%;
+    right:21%;
+    height:33%;
+    width:30%;
+    border-radius:50%;
+}
+
+.pupil{
+    position:absolute;
+    height:28%;
+    width:30%;
+    top:35%;
+    left:36%;
+    border-radius: 50%;
+    background-color: black;
+}
 </style>
 </head>
 <body>
@@ -83,6 +114,16 @@ body{
         </div>
         <div class="ear-right">
             <div class="inner-ear"></div>
+        </div>
+    <!-- Right outer Eye -->
+    <div class="eye-right">
+    <!-- Pupil ~ Black -->
+        <div class="pupil">
+        </div>
+    </div>
+    <!-- Left outer eye -->
+    <div class="eye-left">
+        <div class="pupil">
         </div>
     <!-- End Circular Head -->    
     </div>
