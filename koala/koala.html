@@ -99,6 +99,29 @@ body{
     border-radius: 50%;
     background-color: black;
 }
+
+.nose{
+    position: absolute;
+    border-radius: 50px;
+    top: 45%;
+    left: 37%;
+    width: 25%;
+    height: 42.5%;
+    z-index: 4;
+    background: #BE845F;
+}
+
+.hair-right{
+  position: absolute;
+  top: -4%;
+  left: 48%;
+  width: 20%;
+ height: 20%;
+ background:  #A6BECF;
+ -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+    
 </style>
 </head>
 <body>
@@ -125,8 +148,18 @@ body{
     <div class="eye-left">
         <div class="pupil">
         </div>
-    <!-- End Circular Head -->    
     </div>
+
+<!-- Nose -->        
+<div class="nose">
+    </div>
+    
+        <!-- Hair Right -->        
+    <div class="hair-right">
+    </div>
+        <!-- End Circular Head -->
+        
+</div>
 </div>
 </body>
 </html>
